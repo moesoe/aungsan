@@ -1,0 +1,16 @@
+p('38.33.128.64 - - [11/Aug/2000:03:27:33 -0600] "GET /Res_Movement.htm HTTP/1.1" 200 67211 "Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)" "-"');
+p('203.117.188.5 - - [11/Aug/2000:07:35:51 -0600] "GET /index.htm HTTP/1.0" 200 8200 "Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)" "http://www.geocities.com/hololu_delolu/hololu.html"');
+p('210.63.196.173 - - [11/Aug/2000:10:11:56 -0600] "GET /index.htm HTTP/1.1" 200 8200 "Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)" "http://dir.yahoo.com/Regional/Countries/Myanmar/Arts_and_Humanities/"');
+p('210.63.196.173 - - [11/Aug/2000:10:12:45 -0600] "GET /Speeches.htm HTTP/1.1" 200 10784 "Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)" "http://www.aungsan.com/"');
+p('210.63.196.173 - - [11/Aug/2000:10:13:08 -0600] "GET /gallery.htm HTTP/1.1" 200 9888 "Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)" "http://www.aungsan.com/Speeches.htm"');
+p('210.63.196.173 - - [11/Aug/2000:10:22:02 -0600] "GET /as01.htm HTTP/1.1" 200 213 "Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)" "http://www.aungsan.com/gallery.htm"');
+p('203.168.0.181 - - [11/Aug/2000:10:22:45 -0600] "GET /index.htm HTTP/1.0" 200 8200 "Mozilla/4.72 [en] (Win98; I)" "http://www.google.com/search?q=U+Aung+San&btnG=Google+Search"');
+p('202.183.248.235 - - [11/Aug/2000:10:25:09 -0600] "GET /index.htm HTTP/1.0" 200 8200 "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)" "-"');
+p('202.183.248.235 - - [11/Aug/2000:10:26:00 -0600] "GET /Main_GuestBook.htm HTTP/1.0" 200 6517 "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)" "http://www.aungsan.com/"');
+p('210.63.196.173 - - [11/Aug/2000:10:29:01 -0600] "GET /as07.htm HTTP/1.1" 200 180 "Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)" "http://www.aungsan.com/gallery.htm"');
+p('202.183.248.235 - - [11/Aug/2000:10:30:09 -0600] "GET /fsguestbook.html HTTP/1.0" 200 12348 "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)" "http://www.aungsan.com/Main_GuestBook.htm"');
+p('202.183.248.235 - - [11/Aug/2000:10:30:42 -0600] "GET /Speeches.htm HTTP/1.0" 200 10784 "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)" "http://www.aungsan.com/"');
+p('158.111.6.19 - - [11/Aug/2000:11:42:46 -0600] "GET /index.htm HTTP/1.0" 200 8200 "Mozilla/4.7 [en] (WinNT; U)" "http://www.myanmars.net/links/domains.htm"');
+p('158.111.6.19 - - [11/Aug/2000:11:43:06 -0600] "GET /gallery.htm HTTP/1.0" 200 9888 "Mozilla/4.7 [en] (WinNT; U)" "http://www.aungsan.com/"');
+p('63.208.130.153 - - [11/Aug/2000:23:20:43 -0600] "GET /index.htm HTTP/1.1" 200 8200 "Mozilla/4.0 (compatible; MSIE 5.01; Windows 98; JUNO)" "http://asia.search.yahoo.com/search/asia?p=Myanmar&R=All+of+Yahoo%21&hc=19&hs=155&h=s&b=62"');
+p('198.3.103.65 - - [11/Aug/2000:23:35:29 -0600] "GET /Speeches.htm HTTP/1.0" 200 10784 "ArchitextSpider" "-"');
