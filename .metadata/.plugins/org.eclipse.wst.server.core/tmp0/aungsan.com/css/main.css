@@ -1,0 +1,150 @@
+body {
+	text-decoration: none;
+	font: 0.8em Verdana, Tahoma, Helvetica, Arial, sans-serif;
+	position: relative;
+	min-height: 100%;
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+div.top {
+	width: 100%;
+	height: 80px;
+}
+
+div.toplogo {
+	position: relative;
+	background-color: #ffffff;
+	margin-left: 28%;
+	padding: 5px;
+}
+
+div.toplogo a {
+	float: center;
+	border:0px;
+	padding: 0px;
+	color: #ffffff;
+	background-color: #ffffff;
+}
+
+div.topnav {
+	width: 100%;
+	background-color: #990000;
+}
+
+div.topnavbar {
+	width: 930px;
+	font: 0.8em Verdana, Tahoma, Helvetica, Arial, sans-serif;
+	background-color: #990000;
+	padding: 1px;
+	text-decoration: none;
+	margin-left: 25%; //
+	text-transform: uppercase;
+	height: 30px;
+}
+
+div.topnavbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+div.topnavbar li {
+	float: left;
+	text-align: center;
+}
+
+div.topnavbar a {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 155px;
+	height: 23px;
+	padding-top: 7px;
+}
+
+div.topnavbar a:hover {
+	color: #eeeeee;
+	background-color: #770000;
+}
+
+div.leftnavbar {
+	font: 0.8em Verdana, Tahoma, Helvetica, Arial, sans-serif;
+	width: 180px;
+	padding: 15px;
+	height: 100px;
+	position: fixed;
+	top: 105px;
+	left: 15px;
+}
+
+div.leftnavbar ul {
+	list-style-type: none;
+	margin: 2%;
+	padding: 0;
+}
+
+div.leftnavbar li {
+	text-align: center;
+}
+
+div.leftnavbar a {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 160px;
+	height: 25px;
+	padding-top: 7px;
+}
+
+div.leftnavbar a:hover {
+	color: #eeeeee;
+	background-color: #770000;
+}
+
+div.main {
+	background-color: #ffffff;
+}
+
+div.mainleft {
+	width: 1030px;
+	background-color: #990000;
+}
+
+div.maintextarea {
+	width: 810px;
+	position: relative;
+	left: 210px;
+	top: 0px;
+	overflow: visible;
+	text-align: justify;
+	text-justify: inter-word;
+	padding: 10px;
+	background-color: #ffffff;
+}
+
+div.mainimage {
+	position: absolute;
+	left: 1050px;
+	top: 115px;
+	padding: 10px;
+	background-color: #ffffff;
+}
+
+div.bottomborder {
+	font: 0.8em Verdana, Tahoma, Helvetica, Arial, sans-serif;
+	width: 100%;
+	position: relative;
+	font-weight: normal;
+	color: #ffffff;
+	background-color: #990000;
+	text-decoration: none;
+	height: 20px;
+	padding-left: 45%;
+}
+
+div.bottommargin {
+	height: 20px;
+	background-color: #ffffff;
+}

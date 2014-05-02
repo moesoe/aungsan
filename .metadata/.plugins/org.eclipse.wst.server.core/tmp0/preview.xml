@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module context="aungsan.com" name="aungsan.com" path="D:/workspace/aungsan.com/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/aungsan.com" type="static"/>
+</server>
