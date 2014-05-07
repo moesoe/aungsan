@@ -78,12 +78,12 @@ div.leftnavbar {
 
 div.leftnavbar ul {
 	list-style-type: none;
-	margin: 2%;
+	margin: 1%;
 	padding: 0;
 }
 
 div.leftnavbar li {
-	text-align: center;
+	text-align: left;
 }
 
 div.leftnavbar a {
@@ -120,6 +120,7 @@ div.maintextarea {
 	text-justify: inter-word;
 	padding: 10px;
 	background-color: #ffffff;
+	min-height: 700px;
 }
 
 div.mainimage {
@@ -145,4 +146,8 @@ div.bottomborder {
 div.bottommargin {
 	height: 20px;
 	background-color: #ffffff;
+}
+
+.displaynone {
+	display: none;
 }
