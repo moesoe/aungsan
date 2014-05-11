@@ -34,11 +34,11 @@ div.topnav {
 }
 
 div.topnavbar {
-	width: 930px;
+	width: 1100px;
 	background-color: #990000;
 	padding: 1px;
 	text-decoration: none;
-	margin-left: 25%;
+	margin-left: 21%;
 	height: 30px;
 }
 
@@ -63,12 +63,12 @@ div.topnavbar a {
 }
 
 div.topnavbar a:hover {
-	color: #eeeeee;
+	color: #ffffff;
 	background-color: #770000;
+	border-radius:10px;	
 }
 
 div.leftnavbar {
-	width: 180px;
 	padding: 15px;
 	height: 100px;
 	position: fixed;
@@ -90,15 +90,17 @@ div.leftnavbar a {
 	color: #ffffff;
 	text-decoration: none;
 	display: block;
-	width: 160px;
+	width: 180px;
 	height: 25px;
 	padding-top: 7px;
 	padding-left: 10px;
+	padding-right: 0px;
 }
 
 div.leftnavbar a:hover {
-	color: #eeeeee;
+	color: #ffffff;
 	background-color: #770000;
+	border-radius:10px;	
 }
 
 div.main {
@@ -149,5 +151,7 @@ div.bottommargin {
 }
 
 .displaynone {
-	display: none;
+	color: #eeeeee;
+	background-color: #660000;
+	border-radius:10px;
 }
