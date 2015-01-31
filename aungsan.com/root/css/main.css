@@ -9,7 +9,7 @@ body {
 	background-color: #ffffff;
 	background-repeat: no-repeat;
 	background-position: center;
-	width: 1280px;
+	width: 100%;
 }
 
 div.top {
@@ -505,6 +505,17 @@ a.internallink:link {
 a.internallink:visited {	
 	color: #000000;
 	font-style:italic;
+}
+div.photopagemain{
+	width: 1080px;
+	position: relative;
+	left: 450px;
+	top: 40px;
+	background-color: #ffffff;
+	min-height: 400px;
+}
+div.photopagecaption{
+	text-align:center;
 }
 table#GoogleSearch {
 	width: 375px;
