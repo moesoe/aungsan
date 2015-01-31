@@ -515,7 +515,10 @@ div.photopagemain{
 	min-height: 400px;
 }
 div.photopagecaption{
-	text-align:center;
+	text-align: center;
+	position: relative;
+	margin: 2em;
+	top: 2em;	
 }
 table#GoogleSearch {
 	width: 375px;
