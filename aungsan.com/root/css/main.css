@@ -1,35 +1,41 @@
 body {
 	text-decoration: none;
-	font: 0.8em Verdana, Arial, sans-serif;
+	font-size: 16px;
+	font-family: "Myriad Set Pro", "Lucida Grande", "wf_segoe-ui_light",
+		"wf_segoe-ui_normal", "Helvetica Neue", "Tahoma", "Verdana",
+		"Helvetica", "Arial", "Verdana", "sans-serif";
 	position: relative;
 	min-height: 100%;
 	background-color: #ffffff;
 	background-repeat: no-repeat;
 	background-position: center;
+	width: 1280px;
 }
 
 div.top {
 	width: 100%;
-	height: 80px;
+	height: 160px;
 }
 
 div.toplogo {
 	position: relative;
 	background-color: #ffffff;
-	margin-left: 28%;
-	padding: 5px;
+	left: 483px;
+	top: 48px;
 }
 
 div.toplogo a {
 	float: center;
-	border:0px;
+	border: 0px;
 	padding: 0px;
 	color: #ffffff;
 	background-color: #ffffff;
 }
 
 div.topnav {
-	width: 100%;
+	width: 1350px;
+	margin-left: 200px;
+	margin-right: 0px;
 	background-color: #990000;
 }
 
@@ -38,8 +44,8 @@ div.topnavbar {
 	background-color: #990000;
 	padding: 1px;
 	text-decoration: none;
-	margin-left: 21%;
-	height: 30px;
+	margin-left: 9%;
+	height: 40px;
 }
 
 div.topnavbar ul {
@@ -58,22 +64,20 @@ div.topnavbar a {
 	text-decoration: none;
 	display: block;
 	width: 155px;
-	height: 23px;
-	padding-top: 7px;
+	height: 29px;
+	padding-top: 12px;
 }
 
 div.topnavbar a:hover {
 	color: #ffffff;
-	background-color: #770000;
-	border-radius:10px;	
+	background-color: #880000;
+	border-radius: 0px;
 }
 
 div.leftnavbar {
-	padding: 15px;
-	height: 100px;
-	position: fixed;
 	top: 350px;
 	left: 15px;
+	height: 0px;
 }
 
 div.leftnavbar ul {
@@ -98,9 +102,7 @@ div.leftnavbar a {
 }
 
 div.leftnavbar a:hover {
-	color: #ffffff;
-	background-color: #770000;
-	border-radius:10px;	
+	
 }
 
 div.main {
@@ -108,34 +110,68 @@ div.main {
 }
 
 div.mainleft {
-	width: 1030px;
-	background-color: #990000;
+	width: 360px;
+	background-color: #ffffff;
 }
 
 div.maintextarea {
-	width: 810px;
+	width: 710px;
 	position: relative;
-	left: 210px;
-	top: 0px;
+	left: 450px;
+	top: 40px;
 	overflow: visible;
 	text-align: justify;
-	text-justify: inter-word;
 	padding: 10px;
 	background-color: #ffffff;
-	min-height: 700px;
+	min-height: 400px;
+}
+
+div.mainpanel {
+	width: 1080px;
+	position: relative;
+	left: 450px;
+	top: 40px;
+	background-color: #ffffff;
+	min-height: 400px;
 }
 
 div.mainimage {
+	background-color: #ffffff;
+}
+
+div.mainimageimage {
 	position: absolute;
-	left: 1050px;
-	top: 115px;
+	left: 1210px;
+	top: 230px;
 	padding: 10px;
 	background-color: #ffffff;
+}
+
+div.mainimagetext {
+	position: absolute;
+	left: 1195px;
+	top: 530px;
+	text-decoration: none;
+	font-size: 26px;
+	font-family: "Myriad Set Pro", "Lucida Grande", "wf_segoe-ui_light",
+		"wf_segoe-ui_normal", "Helvetica Neue", "Tahoma", "Verdana",
+		"Helvetica", "Arial", "Verdana", "sans-serif";
+	font-weight: bold;
+	width: 350px;
+	text-align: center;
+}
+
+div.bottom {
+	position: relative;
+	top: 50px;
+	width: 1350px;
+	margin-left: 200px;
+	background-color: #990000;
 }
 
 div.bottomborder {
 	font: 0.8em Verdana, Tahoma, Helvetica, Arial, sans-serif;
-	width: 100%;
+	width: 485px;
 	position: relative;
 	font-weight: normal;
 	color: #ffffff;
@@ -148,10 +184,337 @@ div.bottomborder {
 div.bottommargin {
 	height: 20px;
 	background-color: #ffffff;
+	align: center;
 }
 
-.displaynone {
+.displayhighlight {
 	color: #eeeeee;
 	background-color: #660000;
-	border-radius:10px;
+	border-radius: 0px;
+}
+
+div.burmesequote {
+	width: 95%;
+	background-color: #ffffff;
+	border-width: 5px;
+	border-radius: 10px;
+	border-color: #990000;
+	border-style: solid;
+	padding: 1em;
+}
+
+div.quote {
+	width: 95%;
+	background-color: #ffffff;
+	border-width: 5px;
+	border-radius: 10px;
+	border-color: #990000;
+	border-style: solid;
+	padding: 1em;
+}
+
+div.speechtitle {
+	width: 15%;
+	display: inline-flex;
+	text-align: left;
+	margin-bottom: 1em
+}
+
+div.speechtitle a {
+	text-decoration: underline;
+	color: #990000;
+}
+
+div.speechdescription {
+	width: 85%;
+	float: right;
+	margin-bottom: 1em;
+	position: relative;
+	left: 1em;
+}
+
+div.spaceline {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+div.vcounter {
+	position: relative;
+	left: 155px;
+	top: 230px;
+	width: 300px;
+	height: 150px;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+div.qarchive {
+	position: relative;
+	left: 185px;
+	top: 80px;
+	width: 350px;
+	height: 150px;
+	background-color: #ffffff;
+}
+
+div.googlebar {
+	background-color: #ffffff;
+}
+
+div.googlesearch {
+	position: relative;
+	left: 435px;
+	top: 20px;
+	width: 400px;
+}
+
+div.googleads {
+	position: relative;
+	left: 295px;
+	top: 30px;
+}
+
+div.photomain {
+	position: relative;
+	text-align: center;
+}
+
+div.photomaincaption {
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+}
+
+div.photoline {
+	position: relative;
+	width: 100%;
+	height: 120px;
+	margin-bottom: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-width: 1px;
+	border-color: #990000;
+	border-style: solid;
+}
+
+div.photolinecaptionodd {
+	position: relative;
+	float: right;
+	width: 65%;
+	display: inline;
+	text-align: center;
+	top: 3em
+}
+
+div.photolinecaptioneven {
+	position: relative;
+	float: left;
+	width: 65%;
+	display: inline;
+	text-align: center;
+	top: 3em;
+}
+
+div.photolinephotoodd {
+	position: relative;
+	width: 35%;
+	display: inline;
+	float: left;
+	text-align: center;
+}
+
+div.photolinephotoeven {
+	position: relative;
+	width: 35%;
+	display: inline;
+	text-align: center;
+	float: right;
+}
+
+img.photolinephotoleft {
+	margin: 0.8em;
+}
+
+img.photolinephotoright {
+	margin: 0.8em;
+}
+
+div.baselayer {
+	display:table;
+	color: #000000;
+	margin: 0.5em 12px 0.5em 12px;
+	padding: 20px;
+	text-align: center;
+	width: 99%;
+}
+
+h4.tablecaption {
+	display:table-row;
+	font-family: sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0;
+	padding: 0.3em;
+	text-align: center;
+	width: auto;
+	clear:both;
+}
+
+div.tablerow {
+	display:table-row;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding: 0;
+	text-align: center;
+	width: auto;
+	clear:both;	
+}
+
+div.leftcontainer {
+	display:table-column; 
+	border: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 35%;
+	text-align: left;
+}
+
+div.rightcontainer {
+	display:table-column; 
+	border: none;
+	float: right;
+	margin: 0;
+	width: 64%;
+	text-align: left;	
+}
+
+.odd {
+	background: #d86868;
+	color: #000000;
+}
+
+.even {
+	background: #ffffff;
+	color: #000000;
+}
+
+.blackhilighted {
+	background: #000000;
+	color: #ffffff;
+	font-style:italic;
+	font-weight:lighter;
+}
+
+div.perspectivedesc {
+	width: 99%;
+	display: inline-flex;
+	text-align: left;
+	margin-bottom: 1em
+}
+
+div.perspectivedesc a {
+	text-decoration: none;
+	color: #990000;
+}
+
+div.guestbooktext {
+	display:table-row;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding: 0;
+	text-align: left;
+	width: auto;
+	clear:both;		
+}
+
+div.linktitle {
+	width: 25%;
+	display: inline-flex;
+	text-align: left;
+	margin-bottom: 1em;
+}
+
+div.linktitle a {
+	text-decoration: underline;
+	color: #990000;
+}
+
+div.linkdescription {
+	width: 70%;
+	float: right;
+	margin-bottom: 1em;
+	position: relative;
+	text-align: left;
+	left:20px;
+}
+
+h5.tablecaption {
+	display:table-row;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 0.3em;
+	text-align: left;
+	clear:both;
+}
+div.speechbaselayer {
+	display:table;
+	color: #000000;
+	margin: 0.5em 12px 0.5em 12px;
+	padding: 20px;
+	text-align: center;
+	width: 97%;
+	background:#dddddd;	
+}
+
+h4.speechtitle {
+	display:table-row;
+	font-family: sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0;
+	padding: 0.3em;
+	text-align: center;
+	width: auto;
+	clear:both;		
+}
+div.speechtext {
+	display:table-row;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding: 0;
+	text-align: justify;
+	width: auto;
+	clear:both;
+}
+p.speechsection {	
+	text-align: center;
+}
+a.internallink:link {	
+	color: #ee0000;
+	font-style:italic;
+}
+a.internallink:visited {	
+	color: #000000;
+	font-style:italic;
+}
+table#GoogleSearch {
+	width: 375px;
+}
+
+tr {
+	text-align: center;
+}
+
+td {
+	text-align: center;
+	vertical-align: middle;
 }
