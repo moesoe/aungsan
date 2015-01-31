@@ -342,7 +342,7 @@ img.photolinephotoright {
 }
 
 div.baselayer {
-	display:table;
+	display: table;
 	color: #000000;
 	margin: 0.5em 12px 0.5em 12px;
 	padding: 20px;
@@ -351,7 +351,7 @@ div.baselayer {
 }
 
 h4.tablecaption {
-	display:table-row;
+	display: table-row;
 	font-family: sans-serif;
 	font-size: 2em;
 	font-weight: bold;
@@ -359,11 +359,11 @@ h4.tablecaption {
 	padding: 0.3em;
 	text-align: center;
 	width: auto;
-	clear:both;
+	clear: both;
 }
 
 div.tablerow {
-	display:table-row;
+	display: table-row;
 	margin-top: 0;
 	margin-right: auto;
 	margin-bottom: 0;
@@ -371,11 +371,11 @@ div.tablerow {
 	padding: 0;
 	text-align: center;
 	width: auto;
-	clear:both;	
+	clear: both;
 }
 
 div.leftcontainer {
-	display:table-column; 
+	display: table-column;
 	border: none;
 	float: left;
 	margin: 0;
@@ -385,12 +385,12 @@ div.leftcontainer {
 }
 
 div.rightcontainer {
-	display:table-column; 
+	display: table-column;
 	border: none;
 	float: right;
 	margin: 0;
 	width: 64%;
-	text-align: left;	
+	text-align: left;
 }
 
 .odd {
@@ -406,8 +406,8 @@ div.rightcontainer {
 .blackhilighted {
 	background: #000000;
 	color: #ffffff;
-	font-style:italic;
-	font-weight:lighter;
+	font-style: italic;
+	font-weight: lighter;
 }
 
 div.perspectivedesc {
@@ -423,7 +423,7 @@ div.perspectivedesc a {
 }
 
 div.guestbooktext {
-	display:table-row;
+	display: table-row;
 	margin-top: 0;
 	margin-right: auto;
 	margin-bottom: 0;
@@ -431,7 +431,7 @@ div.guestbooktext {
 	padding: 0;
 	text-align: left;
 	width: auto;
-	clear:both;		
+	clear: both;
 }
 
 div.linktitle {
@@ -452,29 +452,30 @@ div.linkdescription {
 	margin-bottom: 1em;
 	position: relative;
 	text-align: left;
-	left:20px;
+	left: 20px;
 }
 
 h5.tablecaption {
-	display:table-row;
+	display: table-row;
 	font-family: sans-serif;
 	font-weight: bold;
 	padding: 0.3em;
 	text-align: left;
-	clear:both;
+	clear: both;
 }
+
 div.speechbaselayer {
-	display:table;
+	display: table;
 	color: #000000;
 	margin: 0.5em 12px 0.5em 12px;
 	padding: 20px;
 	text-align: center;
 	width: 97%;
-	background:#dddddd;	
+	background: #dddddd;
 }
 
 h4.speechtitle {
-	display:table-row;
+	display: table-row;
 	font-family: sans-serif;
 	font-size: 2em;
 	font-weight: bold;
@@ -482,10 +483,11 @@ h4.speechtitle {
 	padding: 0.3em;
 	text-align: center;
 	width: auto;
-	clear:both;		
+	clear: both;
 }
+
 div.speechtext {
-	display:table-row;
+	display: table-row;
 	margin-top: 0;
 	margin-right: auto;
 	margin-bottom: 0;
@@ -493,33 +495,46 @@ div.speechtext {
 	padding: 0;
 	text-align: justify;
 	width: auto;
-	clear:both;
+	clear: both;
 }
-p.speechsection {	
+
+p.speechsection {
 	text-align: center;
 }
-a.internallink:link {	
+
+a.internallink:link {
 	color: #ee0000;
-	font-style:italic;
+	font-style: italic;
 }
-a.internallink:visited {	
+
+a.internallink:visited {
 	color: #000000;
-	font-style:italic;
+	font-style: italic;
 }
-div.photopagemain{
-	width: 1080px;
+
+div.photopagemainpanel {
+	width: 1350px;
 	position: relative;
-	left: 450px;
 	top: 40px;
 	background-color: #ffffff;
 	min-height: 400px;
+	margin-left: 200px;
+	margin-right: 0px;
 }
-div.photopagecaption{
+
+div.photopagemain {
+	position: relative;
+	background-color: #ffffff;
+	min-height: 400px;
+	text-align: center;	
+}
+
+div.photopagecaption {
 	text-align: center;
 	position: relative;
 	margin: 2em;
-	top: 2em;	
 }
+
 table#GoogleSearch {
 	width: 375px;
 }
