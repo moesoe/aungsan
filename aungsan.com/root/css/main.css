@@ -471,7 +471,7 @@ div.speechbaselayer {
 	padding: 20px;
 	text-align: center;
 	width: 97%;
-	background: #dddddd;
+	background: #eeeeee;
 }
 
 h4.speechtitle {
@@ -496,6 +496,19 @@ div.speechtext {
 	text-align: justify;
 	width: auto;
 	clear: both;
+}
+
+div.speechhighlight {
+	display: table-row;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding: 0;
+	text-align: justify;
+	width: auto;
+	clear: both;
+	font-style: italic;
 }
 
 p.speechsection {
@@ -526,13 +539,54 @@ div.photopagemain {
 	position: relative;
 	background-color: #ffffff;
 	min-height: 400px;
-	text-align: center;	
+	text-align: center;
 }
 
 div.photopagecaption {
 	text-align: center;
 	position: relative;
 	margin: 2em;
+}
+
+div.viewguestbook {
+	text-align: left;
+	position: relative;
+	top: 3em;
+}
+
+div.viewguestbook a {
+	text-decoration: none;
+	color: #ffffff;
+	background: #990000;
+	padding: 1em;
+}
+
+div.guestname {
+	text-align: left;
+	position: relative;
+	font-weight: bold;
+	font-size: 0.95em;
+}
+
+div.guestcomment {
+	text-align: left;
+	position: relative;
+	font-size: 0.95em;
+}
+
+div.guestcommentdatetime {
+	text-align: left;
+	position: relative;
+	font-size: 0.9em;
+	font-style: italic;
+	font-weight: 100;
+}
+
+hr.s1w75line {
+    height: 1px;
+	width: 45%;
+    border: 0;	    
+    background: #333;
 }
 
 table#GoogleSearch {
