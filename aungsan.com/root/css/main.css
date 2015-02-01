@@ -166,12 +166,10 @@ div.bottom {
 	top: 50px;
 	width: 1350px;
 	margin-left: 200px;
-	background-color: #990000;
 }
 
 div.bottomborder {
 	font: 0.8em Verdana, Tahoma, Helvetica, Arial, sans-serif;
-	width: 485px;
 	position: relative;
 	font-weight: normal;
 	color: #ffffff;
@@ -179,6 +177,22 @@ div.bottomborder {
 	text-decoration: none;
 	height: 20px;
 	padding-left: 45%;
+}
+
+div.sharebuttonbar {
+	font: 0.8em Verdana, Tahoma, Helvetica, Arial, sans-serif;
+	position: relative;
+	font-weight: normal;
+	color: #ffffff;
+	text-decoration: none;
+	height: 20px;
+	padding-top: 0.5em;
+}
+
+div.twittershare {
+	display: inline-block;
+	position: relative;
+	top: 4px;
 }
 
 div.bottommargin {
@@ -583,10 +597,10 @@ div.guestcommentdatetime {
 }
 
 hr.s1w75line {
-    height: 1px;
+	height: 1px;
 	width: 45%;
-    border: 0;	    
-    background: #333;
+	border: 0;
+	background: #333;
 }
 
 table#GoogleSearch {
