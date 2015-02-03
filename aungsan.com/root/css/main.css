@@ -264,6 +264,13 @@ div.vcounter {
 	background-color: #ffffff;
 }
 
+div.vcounterdigits {
+	position: relative;
+	left: 50px;
+	text-align: center;
+	background-color: #ffffff;
+}
+
 div.qarchive {
 	position: relative;
 	left: 185px;
@@ -601,6 +608,21 @@ hr.s1w75line {
 	width: 45%;
 	border: 0;
 	background: #333;
+}
+
+div.morequotes {
+	text-align: left;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	left: 574px;
+	position: relative;
+}
+
+div.morequotes a {
+	text-decoration: none;
+	color: #ffffff;
+	background: #990000;
+	padding: 1em;
 }
 
 table#GoogleSearch {
