@@ -1,609 +1,254 @@
 body {
-	text-decoration: none;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
-	font-family: "Myriad Set Pro", "Lucida Grande", "wf_segoe-ui_light",
-		"wf_segoe-ui_normal", "Helvetica Neue", "Tahoma", "Verdana",
-		"Helvetica", "Arial", "Verdana", "sans-serif";
-	position: relative;
-	min-height: 100%;
-	background-color: #ffffff;
-	background-repeat: no-repeat;
-	background-position: center;
+}
+
+@font-face{ 
+	font-family: copperPlateGothicBold;
+	src: url('../fonts/coprgtb.eot');
+	src: url('../fonts/coprgtb.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/coprgtb.woff') format('woff'),
+	     url('../fonts/coprgtb.ttf') format('truetype');
+}
+
+.jumbotron h1 {
+	font-family: copperPlateGothicBold;
+	font-weight: 900;
+	color: #990000;
+	font-size: 72px;
+}
+
+.container {
+	padding-left: 5px;
+	padding-right: 5px
+}
+
+.text-nowrap {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.spacer5 {
+	height: 5px;
 	width: 100%;
-}
-
-div.top {
-	width: 1350px;
-	height: 160px;
-}
-
-div.toplogo {
-	position: relative;
-	background-color: #ffffff;
-	left: 42%;
-	top: 48px;
-	width: 800px;
-}
-
-div.toplogo a {
-	float: center;
-	border: 0px;
-	padding: 0px;
-	color: #ffffff;
-	background-color: #ffffff;
-}
-
-div.topnav {
-	width: 1350px;
-	left: 15%;
-	height:42px;
-	background-color: #990000;
-	position:relative;
-}
-
-div.topnavbar {
-	width: 1100px;
-	background-color: #990000;
-	padding: 1px;
-	text-decoration: none;
-	margin-left: 9%;
-	height: 40px;
-}
-
-div.topnavbar ul {
-	list-style-type: none;
+	font-size: 0;
 	margin: 0;
 	padding: 0;
-}
-
-div.topnavbar li {
-	float: left;
-	text-align: center;
-}
-
-div.topnavbar a {
-	color: #ffffff;
-	text-decoration: none;
+	border: 0;
 	display: block;
-	width: 155px;
-	height: 29px;
-	padding-top: 12px;
 }
 
-div.topnavbar a:hover {
-	color: #ffffff;
-	background-color: #880000;
-	border-radius: 0px;
-}
-
-div.leftnavbar {
-	position: relative;
-	height: 0px;
-}
-
-div.leftnavbar ul {
-	list-style-type: none;
-	margin: 1%;
+.spacer10 {
+	height: 10px;
+	width: 100%;
+	font-size: 0;
+	margin: 0;
 	padding: 0;
-}
-
-div.leftnavbar li {
-	text-align: left;
-}
-
-div.leftnavbar a {
-	color: #ffffff;
-	text-decoration: none;
+	border: 0;
 	display: block;
-	width: 180px;
-	height: 25px;
-	padding-top: 7px;
-	padding-left: 10px;
-	padding-right: 0px;
 }
 
-div.leftnavbar a:hover {
-	
+.spacer30 {
+	height: 30px;
+	width: 100%;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: block;
 }
 
-div.main {
-	width: 1350px;
-	margin-left: 5%;	
+.spacer60 {
+	height: 60px;
+	width: 100%;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: block;
+}
+
+.spacer100 {
+	height: 100px;
+	width: 100%;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: block;
+}
+
+.quote {
+	/* 	width: 95%; */
 	background-color: #ffffff;
+	border-width: 5px;
+	border-radius: 10px;
+	border-color: #990000;
+	border-style: solid;
+	padding: 1em;
+	margin: 1em;
 }
 
-div.mainleft {
-	width: 360px;
-	background-color: #ffffff;
-}
-
-div.maintextarea {
-	width: 710px;
-	position: relative;
-	left: 450px;
-	top: 40px;
-	overflow: visible;
-	text-align: justify;
-	padding: 10px;
-	background-color: #ffffff;
-	min-height: 400px;
-}
-
-div.mainpanel {
-	width: 1080px;
-	position: relative;
-	left: 450px;
-	top: 40px;
-	background-color: #ffffff;
-	min-height: 400px;
-}
-
-div.mainimage {
-	background-color: #ffffff;
-}
-
-div.mainimageimage {
-	position: absolute;
-	left: 1300px;
-	top: 230px;
-	padding: 10px;
-	background-color: #ffffff;
-}
-
-div.mainimagetext {
-	position: absolute;
-	left: 1285px;
-	top: 530px;
+.mainimagetext {
 	text-decoration: none;
 	font-size: 26px;
-	font-family: "Myriad Set Pro", "Lucida Grande", "wf_segoe-ui_light",
-		"wf_segoe-ui_normal", "Helvetica Neue", "Tahoma", "Verdana",
-		"Helvetica", "Arial", "Verdana", "sans-serif";
 	font-weight: bold;
-	width: 350px;
-	text-align: center;
 }
 
-div.bottom {
-	position: relative;
-	top: 50px;
-	width: 1350px;
-	margin-left: 15%;
-}
-
-div.bottomborder {
-	font: 0.8em Verdana, Tahoma, Helvetica, Arial, sans-serif;
-	position: relative;
+.bottomborder {
+	font-size: 12px;
 	font-weight: normal;
 	color: #ffffff;
 	background-color: #990000;
 	text-decoration: none;
 	height: 20px;
-	padding-left: 45%;
 }
 
-div.bottomborder a {
+.bottomborder a {
 	color: #ffffff;
 	text-decoration: none;
 }
 
-div.sharebuttonbar {
-	font: 0.8em Verdana, Tahoma, Helvetica, Arial, sans-serif;
-	position: relative;
+.sitefooter {
+	font-size: 8px;
 	font-weight: normal;
-	color: #ffffff;
 	text-decoration: none;
-	height: 20px;
-	padding-top: 0.5em;
 }
 
-div.twittershare {
+.sharebuttonbar {
+	position: relative;
+}
+
+.twittershare {
 	display: inline-block;
 	position: relative;
-	top: 4px;
+	top: 6px;
 }
 
-div.bottommargin {
-	height: 20px;
-	background-color: #ffffff;
-	align: center;
-}
-
-.displayhighlight {
-	color: #eeeeee;
-	background-color: #660000;
-	border-radius: 0px;
-}
-
-div.burmesequote {
-	width: 95%;
-	background-color: #ffffff;
-	border-width: 5px;
-	border-radius: 10px;
-	border-color: #990000;
-	border-style: solid;
-	padding: 1em;
-}
-
-div.quote {
-	width: 95%;
-	background-color: #ffffff;
-	border-width: 5px;
-	border-radius: 10px;
-	border-color: #990000;
-	border-style: solid;
-	padding: 1em;
-}
-
-div.speechtitle {
-	width: 15%;
-	display: inline-flex;
-	text-align: left;
-	margin-bottom: 1em
-}
-
-div.speechtitle a {
+.speechheading a {
 	text-decoration: underline;
 	color: #990000;
 }
 
-div.speechdescription {
-	width: 85%;
-	float: right;
-	margin-bottom: 1em;
-	position: relative;
-	left: 1em;
-}
-
-div.spaceline {
-	clear: both;
-	margin: 0;
-	padding: 0;
-	width: auto;
-}
-
-div.vcounter {
-	position: relative;
-	left: 155px;
-	top: 230px;
-	width: 300px;
-	height: 150px;
-	text-align: center;
-	background-color: #ffffff;
-}
-
-div.vcounterdigits {
-	position: relative;
-	left: 50px;
-	text-align: center;
-	background-color: #ffffff;
-}
-
-div.qarchive {
-	position: relative;
-	left: 52%;
-	top: 80px;
-	width: 150px;
-	height: 150px;
-	background-color: #ffffff;
-}
-
-div.googlebar {
-	background-color: #ffffff;
-}
-
-div.googlesearch {
-	position: relative;
-	left: 435px;
-	top: 20px;
-	width: 400px;
-}
-
-div.googleads {
-	position: relative;
-	left: 295px;
-	top: 30px;
-}
-
-div.photomain {
+.photomain {
 	position: relative;
 	text-align: center;
 }
 
-div.photomaincaption {
+.photomaincaption {
 	position: relative;
 	text-align: center;
 	font-weight: bold;
 }
 
-div.photoline {
+.photoline {
 	position: relative;
-	width: 100%;
-	height: 120px;
-	margin-bottom: 1em;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	border-width: 1px;
 	border-color: #990000;
 	border-style: solid;
+	margin: 1em;
 }
 
-div.photolinecaptionodd {
-	position: relative;
-	float: right;
-	width: 65%;
-	display: inline;
-	text-align: center;
-	top: 3em
-}
-
-div.photolinecaptioneven {
-	position: relative;
-	float: left;
-	width: 65%;
-	display: inline;
-	text-align: center;
-	top: 3em;
-}
-
-div.photolinephotoodd {
-	position: relative;
-	width: 35%;
-	display: inline;
-	float: left;
-	text-align: center;
-}
-
-div.photolinephotoeven {
-	position: relative;
-	width: 35%;
-	display: inline;
-	text-align: center;
-	float: right;
-}
-
-img.photolinephotoleft {
-	margin: 0.8em;
-}
-
-img.photolinephotoright {
-	margin: 0.8em;
-}
-
-div.baselayer {
-	display: table;
+.speechbaselayer {
 	color: #000000;
 	margin: 0.5em 12px 0.5em 12px;
 	padding: 20px;
 	text-align: center;
-	width: 99%;
+	background: #eeeeee;
 }
 
-h4.tablecaption {
-	display: table-row;
+.speechtitle {
 	font-family: sans-serif;
 	font-size: 2em;
 	font-weight: bold;
 	margin: 0;
 	padding: 0.3em;
 	text-align: center;
-	width: auto;
-	clear: both;
 }
 
-div.tablerow {
-	display: table-row;
+.speechtext {
 	margin-top: 0;
 	margin-right: auto;
 	margin-bottom: 0;
 	margin-left: auto;
 	padding: 0;
-	text-align: center;
-	width: auto;
-	clear: both;
+	text-align: justify;
 }
 
-div.leftcontainer {
-	display: table-column;
-	border: none;
-	float: left;
-	margin: 0;
+.speechhighlight {
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
 	padding: 0;
-	width: 35%;
-	text-align: left;
+	text-align: justify;
+	font-style: italic;
 }
 
-div.rightcontainer {
-	display: table-column;
-	border: none;
-	float: right;
-	margin: 0;
-	width: 64%;
-	text-align: left;
+.btn-themed {
+	color: #ffffff;
+	background-color: #990000;
+	border-color: #990000;
+	padding: 10px 32px;
+	font-size: 16px;
+	line-height: 1.3333333;
+	border-radius: 0;
+}
+
+.btn-themed:hover,.btn-themed:active {
+	color: #ffffff;
+	background-color: #660000;
+	border-color: #660000;
+}
+
+.text-bold {
+	font-weight: bold;
 }
 
 .odd {
-	background: #d86868;
+	background: #eeeeee;
 	color: #000000;
+	margin-right: 0;
+	margin-left: 0;
 }
 
 .even {
 	background: #ffffff;
 	color: #000000;
+	margin-right: 0;
+	margin-left: 0;
 }
 
 .blackhilighted {
 	background: #000000;
-	color: #ffffff;
+	color: #999999;
 	font-style: italic;
 	font-weight: lighter;
+	margin-right: 0;
+	margin-left: 0;	
 }
 
-div.perspectivedesc {
-	width: 99%;
-	display: inline-flex;
-	text-align: left;
-	margin-bottom: 1em
-}
-
-div.perspectivedesc a {
-	text-decoration: none;
-	color: #990000;
-}
-
-div.guestbooktext {
-	display: table-row;
-	margin-top: 0;
-	margin-right: auto;
-	margin-bottom: 0;
-	margin-left: auto;
-	padding: 0;
-	text-align: left;
-	width: auto;
-	clear: both;
-}
-
-div.linktitle {
-	width: 25%;
-	display: inline-flex;
-	text-align: left;
-	margin-bottom: 1em;
-}
-
-div.linktitle a {
+.prespective a,.prespective a:hover,.prespective a:active {
 	text-decoration: underline;
 	color: #990000;
 }
 
-div.linkdescription {
-	width: 70%;
-	float: right;
-	margin-bottom: 1em;
-	position: relative;
-	text-align: left;
-	left: 20px;
-}
-
-h5.tablecaption {
-	display: table-row;
-	font-family: sans-serif;
-	font-weight: bold;
-	padding: 0.3em;
-	text-align: left;
-	clear: both;
-}
-
-div.speechbaselayer {
-	display: table;
-	color: #000000;
-	margin: 0.5em 12px 0.5em 12px;
-	padding: 20px;
-	text-align: center;
-	width: 97%;
-	background: #eeeeee;
-}
-
-h4.speechtitle {
-	display: table-row;
-	font-family: sans-serif;
-	font-size: 2em;
-	font-weight: bold;
-	margin: 0;
-	padding: 0.3em;
-	text-align: center;
-	width: auto;
-	clear: both;
-}
-
-div.speechtext {
-	display: table-row;
-	margin-top: 0;
-	margin-right: auto;
-	margin-bottom: 0;
-	margin-left: auto;
-	padding: 0;
-	text-align: justify;
-	width: auto;
-	clear: both;
-}
-
-div.speechhighlight {
-	display: table-row;
-	margin-top: 0;
-	margin-right: auto;
-	margin-bottom: 0;
-	margin-left: auto;
-	padding: 0;
-	text-align: justify;
-	width: auto;
-	clear: both;
-	font-style: italic;
-}
-
-p.speechsection {
-	text-align: center;
-}
-
-a.internallink:link {
-	color: #ee0000;
-	font-style: italic;
-}
-
-a.internallink:visited {
-	color: #000000;
-	font-style: italic;
-}
-
-div.photopagemainpanel {
-	width: 1350px;
-	position: relative;
-	top: 40px;
-	background-color: #ffffff;
-	min-height: 400px;
-	margin-left: 200px;
-	margin-right: 0px;
-}
-
-div.photopagemain {
-	position: relative;
-	background-color: #ffffff;
-	min-height: 400px;
-	text-align: center;
-}
-
-div.photopagecaption {
-	text-align: center;
-	position: relative;
-	margin: 2em;
-}
-
-div.viewguestbook {
-	text-align: left;
-	position: relative;
-	top: 3em;
-}
-
-div.viewguestbook a {
-	text-decoration: none;
-	color: #ffffff;
-	background: #990000;
-	padding: 1em;
-}
-
-div.guestname {
+.guestname {
 	text-align: left;
 	position: relative;
 	font-weight: bold;
 	font-size: 0.95em;
 }
 
-div.guestcomment {
+.guestcomment {
 	text-align: left;
 	position: relative;
 	font-size: 0.95em;
 }
 
-div.guestcommentdatetime {
+.guestcommentdatetime {
 	text-align: left;
 	position: relative;
 	font-size: 0.9em;
@@ -611,37 +256,25 @@ div.guestcommentdatetime {
 	font-weight: 100;
 }
 
-hr.s1w75line {
+.s1w75line {
 	height: 1px;
 	width: 45%;
 	border: 0;
 	background: #333;
 }
 
-div.morequotes {
-	text-align: left;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	left: 574px;
-	position: relative;
+.spaceline {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	width: auto;
 }
 
-div.morequotes a {
-	text-decoration: none;
-	color: #ffffff;
-	background: #990000;
-	padding: 1em;
+.tablecaption {
+	font-weight: bold;
 }
 
-table#GoogleSearch {
-	width: 375px;
-}
-
-tr {
-	text-align: center;
-}
-
-td {
-	text-align: center;
-	vertical-align: middle;
+.linktitle a,.linktitle a:hover,.linktitle a:active {
+	text-decoration: underline;
+	color: #990000;
 }
