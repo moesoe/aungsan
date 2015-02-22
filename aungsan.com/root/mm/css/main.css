@@ -1,0 +1,286 @@
+@font-face {
+	font-family: 'myanmarfont';
+	src: local('myanmar3'), local('tharlon'), local('padauk'), url('../fonts/mm3mos.ttf');
+	unicode-range: U+1000-109F;
+}
+
+@font-face {
+	font-family: 'myanmarfontbold';
+	src: local('myanmar3'),  local('tharlon'), local('padauk'), url('../fonts/mm3mos.ttf');
+	unicode-range: U+1000-109F;
+}
+
+body {
+	font-family: 'myanmarfont';
+	font-size: 20px;
+}
+
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
+	font-family: 'myanmarfontbold';
+}
+
+.jumbotron h1 {
+	font-family: 'myanmarfontbold';
+	font-weight: 900;
+	color: #990000;
+	font-size: 72px;
+	line-height: 1.4;
+	margin-left: -20px;
+}
+
+.container {
+	padding-left: 5px;
+	padding-right: 5px
+}
+
+.text-nowrap {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.spacer5 {
+	height: 5px;
+	width: 100%;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: block;
+}
+
+.spacer10 {
+	height: 10px;
+	width: 100%;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: block;
+}
+
+.spacer30 {
+	height: 30px;
+	width: 100%;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: block;
+}
+
+.spacer60 {
+	height: 60px;
+	width: 100%;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: block;
+}
+
+.spacer100 {
+	height: 100px;
+	width: 100%;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: block;
+}
+
+.quote {
+	/* 	width: 95%; */
+	background-color: #ffffff;
+	border-width: 5px;
+	border-radius: 10px;
+	border-color: #990000;
+	border-style: solid;
+	padding: 1em;
+	margin: 1em;
+}
+
+.mainimagetext {
+	text-decoration: none;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.bottomborder {
+	font-size: 12px;
+	font-weight: normal;
+	color: #ffffff;
+	background-color: #990000;
+	text-decoration: none;
+	height: 20px;
+}
+
+.bottomborder a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.sitefooter {
+	font-size: 8px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.sharebuttonbar {
+	position: relative;
+}
+
+.twittershare {
+	display: inline-block;
+	position: relative;
+	top: 6px;
+}
+
+.speechheading a {
+	text-decoration: underline;
+	color: #990000;
+}
+
+.photomain {
+	position: relative;
+	text-align: center;
+}
+
+.photomaincaption {
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+}
+
+.photoline {
+	position: relative;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-width: 1px;
+	border-color: #990000;
+	border-style: solid;
+	margin: 1em;
+}
+
+.speechbaselayer {
+	color: #000000;
+	margin: 0.5em 12px 0.5em 12px;
+	padding: 20px;
+	text-align: center;
+	background: #eeeeee;
+}
+
+.speechtitle {
+	font-family: 'myanmarfontbold';
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0;
+	padding: 0.3em;
+	text-align: center;
+}
+
+.speechtext {
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding: 0;
+	text-align: justify;
+}
+
+.speechhighlight {
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding: 0;
+	text-align: justify;
+	font-style: italic;
+}
+
+.btn-themed {
+	color: #ffffff;
+	background-color: #990000;
+	border-color: #990000;
+	padding: 10px 32px;
+	font-size: 16px;
+	line-height: 1.3333333;
+	border-radius: 0;
+}
+
+.btn-themed:hover,.btn-themed:active {
+	color: #ffffff;
+	background-color: #660000;
+	border-color: #660000;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.odd {
+	background: #eeeeee;
+	color: #000000;
+	margin-right: 0;
+}
+
+.even {
+	background: #ffffff;
+	color: #000000;
+	margin-right: 0;
+}
+
+.blackhilighted {
+	background: #000000;
+	color: #ffffff;
+	font-style: italic;
+	font-weight: lighter;
+}
+
+.prespective a,.prespective a:hover,.prespective a:active {
+	text-decoration: underline;
+	color: #990000;
+}
+
+.guestname {
+	text-align: left;
+	position: relative;
+	font-weight: bold;
+	font-size: 0.95em;
+}
+
+.guestcomment {
+	text-align: left;
+	position: relative;
+	font-size: 0.95em;
+}
+
+.guestcommentdatetime {
+	text-align: left;
+	position: relative;
+	font-size: 0.9em;
+	font-style: italic;
+	font-weight: 100;
+}
+
+.s1w75line {
+	height: 1px;
+	width: 45%;
+	border: 0;
+	background: #333;
+}
+
+.spaceline {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+.tablecaption {
+	font-weight: bold;
+}
+
+.linktitle a,.linktitle a:hover,.linktitle a:active {
+	text-decoration: underline;
+	color: #990000;
+}
